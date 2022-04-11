@@ -1,2 +1,2 @@
-# inteface-netflix
+# Interface Netflix
 Recriando a interface do Netflix
