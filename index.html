@@ -18,7 +18,7 @@
 <body>
   <header>
     <div class="container">
-      <h2 class="logo">NETFLIX</h2>
+      <h2 class="logo">myNETFLIX</h2>
       <nav>
         <a href="#">Inicio</a>
         <a href="#">Séries</a>
@@ -31,16 +31,19 @@
   <main>
     <div class="filme-principal">
       <div class="container">
-        <h3 class="titulo">STRANGER THINGS</h3>
-        <p class="descricao">Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, forças sobrenaturais e uma menina.</p>
+        <h3 class="titulo">Minhas melhores séries</h3>
+        <p class="descricao">Um belo repósitorio para armazenar, as séries que marcam as nossas vidas.</p>
         <div class="botoes">
-          <button role="button" class="botao">
-            <i class="fa-solid fa-play"></i>
-            ASSISTIR AGORA
-          </button>
-          <button role="button" class="botao">
+          <a href="https://www.imdb.com/search/title/?title_type=tv_series&num_votes=100000,&sort=user_rating,desc">
+            <button role="button" class="botao">
+              <i class="fa-solid fa-trophy"></i>
+              TOP SERIES IMDb
+            </button>
+          </a>
+          <button role="button" class="botao popup" onclick="myFunction()">
             <i class="fa-solid fa-circle-info"></i>
             MAIS INFORMAÇÕES
+            <span class="popuptext" id="myPopup">Criado por Claudio Ferreira como projeto para o DIO Bootcamp.</span>
           </button>
         </div>
       </div>
